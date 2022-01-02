@@ -1,0 +1,16 @@
+.navbar-nav{
+	background-color: #46697b;
+	width: 100%;
+	text-align: center;
+}
+
+#box{
+	border: solid;
+	height: 1000px;
+	background-color: #a6d5be;
+	overflow: auto;
+}
+
+#title{
+	padding-bottom: 50px;
+}
