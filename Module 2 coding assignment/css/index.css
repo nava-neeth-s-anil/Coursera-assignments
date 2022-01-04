@@ -1,1 +1,325 @@
+/*------------------- Mobile view ---------------------------------------*/
 
+@media(max-width: 767px){
+
+/*------- Main titile ---------- */
+
+	#title{
+		text-align: center;
+	}
+
+/*------ chicken ----------- */
+
+	#box-chicken{
+		background-color: #bcbcbc;
+		border: solid;
+	}
+
+	#chicken-para{
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	#chicken-title-box{
+		border: solid 1px;
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		background-color: #e06666;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+	}
+
+	#chicken-title-text{
+		margin-top: 5px;
+	}
+
+/*--------- Beef ------------- */
+
+	#box-beef{
+		background-color: #bcbcbc;
+		border: solid;
+		margin-top: 4px;
+	}
+
+	#beef-title-box{
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		border: solid 1px;
+		background-color: #940b0b;
+		margin-top: -1px;
+		margin-right: -1px;
+		float: right;
+	}
+
+	#beef-para{
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	#beef-title-text{
+		margin-top: 5px;
+		color: #ffffff;
+	}
+
+
+/* ------ Sushi ------------- */
+
+	#box-sushi{
+		background-color: #bcbcbc;
+		border: solid;
+		margin-top: 4px;
+	}
+
+	#sushi-title-box{
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		border: solid 1px;
+		background-color: #6dff85;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+	}
+
+	#sushi-para{
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+	}
+
+	#sushi-title-text{
+		margin-top: 5px;
+	}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------ */
+
+/*------------- Tablet view ----------- */
+
+@media(min-width: 767px) and (max-width: 991px){
+
+	#title{
+		text-align: center;
+	}
+
+	*{
+		box-sizing: border-box;
+	}
+
+/*------ Chicken ----------- */
+
+	#box-chicken{
+		background-color: #bcbcbc;
+		border: solid;
+		width: 45%;
+		float: left;
+	}
+
+	#chicken-para{
+		padding-top: 30px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-bottom: 10px;
+	}
+
+	#chicken-title-box{
+		border: solid 1px;
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+		background-color: #e06666;
+	}
+
+	#chicken-title-text{
+		margin-top: 3px;
+	}
+
+/*--------- Beef ----------------------- */
+
+	#box-beef{
+		background-color: #bcbcbc;
+		border: solid;
+		width: 45%;
+		float: right;
+	}
+
+	#beef-title-box{
+		border: solid 1px;
+		width: 100px;
+		height: 30px;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+		text-align: center;
+		background-color: #940b0b;
+	}
+
+	#beef-para{
+		padding-top: 30px;
+		padding-right: 10px;
+		padding-left: 10px;
+		padding-bottom: 10px;
+	}
+
+	#beef-title-text{
+		margin-top: 3px;
+		color: #ffffff;
+	}
+
+/*--------------- Sushi ------------------- */
+
+	#box-sushi{
+		background-color: #bcbcbc;
+		border: solid;
+		clear: both;
+		margin-top: 300px;
+	}
+
+	#sushi-para{
+		padding-top: 30px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#sushi-title-box{
+		float: right;
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		border: solid 1px;
+		margin-top: -1px;
+		margin-right: -1px;
+		background-color: #6dff85;
+	}
+
+	#sushi-title-text{
+		margin-top: 3px;
+	}
+
+}
+
+/*------------------------------------------------------------------------------------------------------------- */
+
+/*----- Desktop view ----------- */
+
+@media(min-width: 991px){
+	*{
+		box-sizing: border-box;
+	}
+
+	#title{
+		text-align: center;
+	}
+
+	#box-chicken{
+		background-color: #bcbcbc;
+		border: solid;
+		width: 30%;
+		float: left;
+	}
+
+	#chicken-title-box{
+		width: 100px;
+		height: 30px;
+		border: solid 1px;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+		text-align: center;
+		background-color: #e06666;
+	}
+
+	#chicken-title-text{
+		margin-top: 3px;
+	}
+
+	#chicken-para{
+		padding-top: 30px;
+		padding-bottom: 10px;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+
+
+/*----------- Beef -------------------------- */
+
+	#box-beef{
+		background-color: #bcbcbc;
+		width: 30%;
+		float: left;
+		border: solid;
+		margin-left: 50px;
+	}
+
+	#beef-para{
+		padding-top: 30px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#beef-title-box{
+		border: solid 1px;
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+		background-color: #940b0b;
+	}
+
+	#beef-title-text{
+		margin-top: 3px;
+		color: #ffffff;
+	}
+
+
+
+/*-------------- Sushi -------------------- */
+
+	#box-sushi{
+		background-color: #bcbcbc;
+		width: 30%;
+		border: solid;
+		float: right;
+
+	}
+
+	#sushi-para{
+		padding-top: 30px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#sushi-title-box{
+		border: solid 1px;
+		background-color: #6dff85;
+		width: 100px;
+		height: 30px;
+		text-align: center;
+		float: right;
+		margin-top: -1px;
+		margin-right: -1px;
+	}
+
+	#sushi-title-text{
+		margin-top: 3px;
+	}
+
+
+}
